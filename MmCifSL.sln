@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MmCifSL", "MmCifSL\MmCifSL.csproj", "{15417072-588D-4767-A040-E745663AA9F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demos", "Demos\Demos.csproj", "{2B105C21-CDAC-4EBF-9F1A-8B5C860C2411}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PdbXReader", "PdbXReader\PdbXReader.csproj", "{E00EF572-60CC-4BA7-9712-CEE61AE7607C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15417072-588D-4767-A040-E745663AA9F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15417072-588D-4767-A040-E745663AA9F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15417072-588D-4767-A040-E745663AA9F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15417072-588D-4767-A040-E745663AA9F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B105C21-CDAC-4EBF-9F1A-8B5C860C2411}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B105C21-CDAC-4EBF-9F1A-8B5C860C2411}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B105C21-CDAC-4EBF-9F1A-8B5C860C2411}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B105C21-CDAC-4EBF-9F1A-8B5C860C2411}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E00EF572-60CC-4BA7-9712-CEE61AE7607C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E00EF572-60CC-4BA7-9712-CEE61AE7607C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E00EF572-60CC-4BA7-9712-CEE61AE7607C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E00EF572-60CC-4BA7-9712-CEE61AE7607C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
