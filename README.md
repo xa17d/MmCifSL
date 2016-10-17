@@ -6,11 +6,13 @@ The PdbXReader Library (based on MmCifSL) can be used to read AtomSites (atoms a
 
 Example usage: read all atom symbol and position from .cif file:
 ```cs
+using System;
+using System.IO;
 using PdbXReader;
 
 ...
 
-string file = File.ReadAllText("1hho.cif"); // downloaded from http://www.rcsb.org/pdb/explore.do?structureId=1HHO (PDBx/mmCIF Format9
+string file = File.ReadAllText("1hho.cif"); // downloaded from http://www.rcsb.org/pdb/explore.do?structureId=1HHO (PDBx/mmCIF Format)
 
 using (var reader = new ModelReader())
 {
