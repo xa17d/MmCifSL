@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace PdbXReader.Utils
 {
@@ -22,7 +21,7 @@ namespace PdbXReader.Utils
                     s.Append(" ");
                     s.Append(prop.Name);
                     s.Append(":");
-                    s.Append(ConvertToString(prop.GetValue(obj)));
+                    s.Append(ConvertToString(prop.GetValue(obj, null)));
                     s.Append(";");
                 }
 
